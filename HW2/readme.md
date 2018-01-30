@@ -31,6 +31,8 @@ During this homework cycle I've not yet been presented with an option to assist 
 
 I will be continually checking the Issue Tracker throughout the week, hoping to provide assistance should it be needed.
 
+01.30.2018 UPDATE: Responded to user ClarissaSpain regarding issue with uploading images in text editor.
+
 ## Image of My Text Editor
 
 ![Image of my Text Editor](HW2_Text_Editor.PNG)
