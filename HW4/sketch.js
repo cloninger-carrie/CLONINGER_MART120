@@ -9,10 +9,11 @@ function draw() {
   push();
 
   // move XY coordinate grid to center of createCanvas
-  translate(500, 300);
+  translate(500, 350);
 
   // drawing legs - there are four total
   push();
+  noStroke();
   fill('rgb(135, 248, 107)');
   // draw leftmost leg
   quad(-160, -20, -120, -20, -180, -120, -220, -120);
