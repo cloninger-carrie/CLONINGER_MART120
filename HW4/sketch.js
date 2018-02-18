@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(1000, 700);
+  createCanvas(1000, 1000);
 }
 
 function draw() {
@@ -9,7 +9,7 @@ function draw() {
   push();
 
   // move XY coordinate grid to center of createCanvas
-  translate(500, 350);
+  translate(500, 500);
 
   // drawing legs - there are four total
   push();
