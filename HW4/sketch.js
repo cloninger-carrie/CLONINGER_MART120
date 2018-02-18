@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  background('rgb(153, 255, 153)');
+  background('rgb(247, 240, 188)');
 
   // creating the MAIN SANDBOX for entire character
   push();
@@ -16,11 +16,7 @@ function draw() {
   noStroke();
   fill('rgb(135, 248, 107)');
   // draw leftmost leg
-  quad(-160, -20, -120, -20, -180, -120, -220, -120);
-  quad(-220, -120, -180, -120, -160, -180, -160, -280);
-  // draw left, inside leg
-  quad(-80, -40, -40, -40, -60, -100, -100, -100);
-  triangle(-60, -100, -100, -100, -60, -280);
+  quad(-160, -40, -120, -40, --180, -120, -220, -120);
   pop();
   pop();
 
