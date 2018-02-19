@@ -19,6 +19,13 @@ function draw() {
 
   // begin first leg
   quad( -160, 40, -120, 40, -180, 120, -220, 120 );
+  quad( -220, 120, -180, 120, -160, 180, -160, 280 );
+  // end first leg
+
+  // begin second leg
+  quad( -80, 40, -40, 40, -60, 100, -100, 100 );
+  triangle( -100, 100, -60, 100, -60, 280 );
+
   pop();
   pop();
 
