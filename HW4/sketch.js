@@ -37,7 +37,7 @@ function draw() {
   quad( 180, 120, 220, 120, 160, 280, 160, 180 );
   // end fourth leg
 
-  //end sub-SANDBOX for character legs
+  // end sub-SANDBOX for character legs
   pop();
 
   // begin sub-SANDBOX for character body
@@ -48,6 +48,18 @@ function draw() {
   quad( -200, 40, -100, -100, 100, -100, 200, 40 );
   quad( -60, -100, -20, -140, 20, -140, 60, -100 );
   triangle( -10, -140, 10, -140, 0, -160 );
+
+  // end sub-SANDBOX for character body
+  pop();
+
+  // begin sub-San for character head
+  push();
+  noStroke();
+  fill( 'rgb(155, 7, 22)');
+
+  triangle( 0, -160, -40, -200, 40, -200 );
+  quad( -60, -260, 60, -260, 40, -200, -40, -200 );
+  quad( -100, -340, 100, -340, 120, -260, -120, -260 )
 
   pop();
   pop();
