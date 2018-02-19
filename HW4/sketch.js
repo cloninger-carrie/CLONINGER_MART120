@@ -107,7 +107,7 @@ function draw() {
   push();
   noStroke();
   fill( 'rgb(255, 61, 67)');
-  ellipse(0, -320, 85, 85, 200, 340, CHORD );
+  arc(0, -320, 85, 85, 3.46, 5.97, CHORD );
   // end sub-SANDBOX for character eyelid
   pop();
 
