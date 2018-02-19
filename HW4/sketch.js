@@ -68,7 +68,7 @@ function draw() {
 
   triangle( 0, -200, -20, -260, 20, -260 );
 
-  strokeWeight(10);
+  strokeWeight(5);
   stroke( 'rgb(254, 161, 55)');
   line( -60, -280, -40, -260 );
   line( -40, -260, 40, -260 );
@@ -81,8 +81,8 @@ function draw() {
   noStroke();
   fill( 'rgb(255, 60, 154)');
 
-  rect( -100, -320, 40, 40, 20 );
-  rect( 60, -320, 40, 40, 20 );
+  rect( -100, -320, 40, 40, 10 );
+  rect( 60, -320, 40, 40, 10 );
   // end sub-SANDBOX for character cheeks
   pop();
 
@@ -93,16 +93,23 @@ function draw() {
   ellipse( 0, -320, 80, 80 );
 
   stroke( 'rgb(29, 150, 110)');
+  strokeWeight(5);
   fill( 'rgb(5, 221, 116)');
   ellipse( 0, -320, 40, 40 );
 
   strokeWeight(10);
   stroke('black');
   point( 0, -320);
-
   // end sub-SANDBOX for character eye
   pop();
 
+  // begin sub-SANDBOX for character eyelid
+  push();
+  noStroke();
+  fill( 'rgb(255, 61, 67)')
+  rect( -40, -380, 80, 30, 20 );
+  // end sub-SANDBOX for character eyelid
+  pop();
 
   pop();
   pop();
