@@ -52,7 +52,7 @@ function draw() {
   // end sub-SANDBOX for character body
   pop();
 
-  // begin sub-San for character head
+  // begin sub-SANDBOX for character head
   push();
   noStroke();
   fill( 'rgb(255, 61, 67)');
@@ -60,6 +60,18 @@ function draw() {
   triangle( 0, -160, -40, -200, 40, -200 );
   quad( -60, -260, 60, -260, 40, -200, -40, -200 );
   quad( -100, -340, 100, -340, 120, -260, -120, -260 );
+
+  // begin sub-SANDBOX for character mouth
+  push();
+  noStroke();
+  fill( 'rgb(254, 161, 55)');
+
+  triangle( 0, -200, -20, -260, 20, 260 );
+  line( -60, -280, -40, -260 );
+  line( -40, -260, 40, -260 );
+  line( 40, -260, 60, -280 );
+  // end sub-SANDBOX for character mouth
+  pop();
 
   pop();
   pop();
