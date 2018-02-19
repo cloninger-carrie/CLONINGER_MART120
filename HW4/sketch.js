@@ -66,11 +66,18 @@ function draw() {
   noStroke();
   fill( 'rgb(254, 161, 55)');
 
-  triangle( 0, -200, -20, -260, 20, 260 );
+  triangle( 0, -200, -20, -260, 20, -260 );
   line( -60, -280, -40, -260 );
   line( -40, -260, 40, -260 );
   line( 40, -260, 60, -280 );
   // end sub-SANDBOX for character mouth
+  pop();
+
+  // begin sub-SANDBOX for character cheeks
+  push();
+  noStroke();
+  fill( 'rgb()')
+
   pop();
 
   pop();
