@@ -55,7 +55,7 @@ function draw() {
   // begin sub-San for character head
   push();
   noStroke();
-  fill( 'rgb(155, 7, 22)');
+  fill( 'rgb(255, 61, 67)');
 
   triangle( 0, -160, -40, -200, 40, -200 );
   quad( -60, -260, 60, -260, 40, -200, -40, -200 );
