@@ -35,8 +35,19 @@ function draw() {
   // begin fourth leg
   quad( 120, 40, 160, 40, 220, 120, 180, 120 );
   quad( 180, 120, 220, 120, 160, 280, 160, 180 );
+  // end fourth leg
+
+  //end sub-SANDBOX for character legs
+  pop();
+
+  // begin sub-SANDBOX for character body
+  push();
+  noStroke();
+  fill( 'rgb(47, 179, 126)');
+
+  quad( -100, 100, 100, 100, 200, 40, -200, 40 );
 
   pop();
-  pop();
+  pop(); 
 
 }
