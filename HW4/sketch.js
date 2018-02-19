@@ -111,7 +111,11 @@ function draw() {
   // end sub-SANDBOX for character eyelid
   pop();
 
-  pop();
+  // end sub-SANDBOX for character head
   pop();
 
+  // end MAIN SANDBOX for entirety of character
+  pop();
+
+  // close the 'draw' function
 }
