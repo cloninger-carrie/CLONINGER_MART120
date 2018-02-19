@@ -63,10 +63,13 @@ function draw() {
 
   // begin sub-SANDBOX for character mouth
   push();
-  strokeWeight(20);
+  noStroke();
   fill( 'rgb(254, 161, 55)');
 
   triangle( 0, -200, -20, -260, 20, -260 );
+
+  strokeWeight(20);
+  stroke( 'rgb(254, 161, 55)');
   line( -60, -280, -40, -260 );
   line( -40, -260, 40, -260 );
   line( 40, -260, 60, -280 );
@@ -79,8 +82,8 @@ function draw() {
   fill( 'rgb(255, 60, 154)');
 
   rect( -100, -320, 40, 40, 20 );
-  rect( 60, -320, 40, 40, 20 ); 
-
+  rect( 60, -320, 40, 40, 20 );
+  // end sub-SANDBOX for character cheeks
   pop();
 
   pop();
